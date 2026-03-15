@@ -16,7 +16,7 @@ This app allows users to explore Mars atmospheric pressure trends interactively.
 git clone https://github.com/sasha-ss/mars-pressure-dashboard.git
 ```
 
-**2. Install required packages in R**
+**2. Open app.R in RStudio (or any R IDE) and install required packages in R**
 
 ``` bash
 install.packages(c("shiny", "dplyr", "readr", "bslib"))
@@ -24,6 +24,8 @@ install.packages(c("shiny", "dplyr", "readr", "bslib"))
 
 **3. Launch the dashboard:**
 
+Option 1: Click the Run App button in RStudio
+Option 2: In the console, run:
 ``` bash
 shiny::runApp("app.R")
 ```
